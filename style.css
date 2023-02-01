@@ -41,6 +41,8 @@ body {
 .list{
     list-style: disc;
     list-style-position: inside;
+   
+    
 }
 
 .list-item{
