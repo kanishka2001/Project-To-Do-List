@@ -46,7 +46,7 @@ const edititems=Array.from(document.getElementsByClassName('edititem'))
         deleteItemEls[i].addEventListener('click',(event)=>{
         const item = event.target.parentNode.innerText
         //console.log(event.target.parentNode)
-        const todoitem=item.slice(0,-1).trim()
+        const todoitem=item.slice(0,-3).trim()
         arr.splice(arr.indexOf(todoitem), 1);
         refreshlist();
         })
